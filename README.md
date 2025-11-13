@@ -11,7 +11,7 @@
   <img width="10" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="60" alt="csharp logo"  />
 </div>
-
+---
 ###
 
 <div align="center">
@@ -30,7 +30,7 @@
 
 <div align="left">
 </div>
-
+---
 ###
 
 <img align="right" height="250" src="https://imgur.com/a/tbHedqC#QsHMxzt"  />
