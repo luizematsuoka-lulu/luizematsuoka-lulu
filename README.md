@@ -1,6 +1,9 @@
-<!-- Banner de Boas-Vindas com Ondas Midnight-Purple -->
+<!-- Banner Superior com Ondas Midnight-Purple -->
 <div align="center">
-  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&reversal=false&text=Luize%20Matsuoka%20|%20Graduanda%20em%20Engenharia%20de%20Software&fontSize=26&fontColor=FFFFFF&color=0:000000,40:2d1544,100:9745f5" alt="Header Banner" />
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&reversal=false&color=0:000000,40:2d1544,100:9745f5" alt="Header Wave" />
+  
+  <h1>Luize Matsuoka</h1>
+  <h3> Graduanda em Engenharia de Software</h3>
 </div>
 
 <br/>
@@ -17,6 +20,7 @@
   <img src="https://visitor-badge.laobi.icu/badge?page_id=luizematsuoka-lulu.luizematsuoka-lulu&color=9745f5" alt="Contador de visitas" />
 </div>
 
+<br/>
 <br/>
 
 <!-- Tecnologias e Ferramentas -->
@@ -35,6 +39,7 @@
 </div>
 
 <br/>
+<br/>
 
 <!-- Estatísticas do GitHub (Tema Midnight-Purple) -->
 <div align="center">
@@ -44,18 +49,6 @@
 </div>
 
 <br/>
-
-<!-- Gráfico do Pacman -->
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizematsuoka-lulu/luizematsuoka-lulu/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizematsuoka-lulu/luizematsuoka-lulu/pacman-output/pacman-contribution-graph.svg?game=pacman">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/luizematsuoka-lulu/luizematsuoka-lulu/pacman-output/pacman-contribution-graph.svg?game=pacman">
-  </picture>
-</div>
-
 <br/>
 
-<!-- Banner Inferior com Ondas Midnight-Purple -->
-<div align="center">
-  <img width="100%" src="
+<!-- Gráfico de Contribuições Animado
