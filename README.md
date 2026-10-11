@@ -1,16 +1,61 @@
-## Hi there 👋
+<!-- Banner de Boas-Vindas com Ondas Midnight-Purple -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&reversal=false&text=Luize%20Matsuoka%20|%20Graduanda%20em%20Engenharia%20de%20Software&fontSize=26&fontColor=FFFFFF&color=0:000000,40:2d1544,100:9745f5" alt="Header Banner" />
+</div>
 
-<!--
-**luizematsuoka-lulu/luizematsuoka-lulu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<br/>
 
-Here are some ideas to get you started:
+<!-- Apresentação / Bio -->
+<div align="center">
+  <p><i>Dedicação contínua ao desenvolvimento técnico e à arquitetura de software, construindo consistência passo a passo. ⚡💻</i></p>
+</div>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<br/>
+
+<!-- Contador de Visitas -->
+<div align="center">
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=luizematsuoka-lulu.luizematsuoka-lulu&color=9745f5" alt="Contador de visitas" />
+</div>
+
+<br/>
+
+<!-- Tecnologias e Ferramentas -->
+<div align="center">
+  <h4>⚡ Tecnologias & Ferramentas</h4>
+  
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" height="40" alt="C" />
+  <img width="16" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="Python" />
+  <img width="16" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="PostgreSQL" />
+  <img width="16" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" alt="Figma" />
+  <img width="16" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" alt="VS Code" />
+</div>
+
+<br/>
+
+<!-- Estatísticas do GitHub (Tema Midnight-Purple) -->
+<div align="center">
+  <h4>📊 Atividade & Métricas</h4>
+  <img src="https://github-readme-stats.vercel.app/api?username=luizematsuoka-lulu&show_icons=true&theme=midnight-purple&count_private=true&hide_border=false" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luizematsuoka-lulu&layout=compact&theme=midnight-purple&hide_border=false" height="150" alt="Top Languages" />
+</div>
+
+<br/>
+
+<!-- Gráfico do Pacman -->
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizematsuoka-lulu/luizematsuoka-lulu/pacman-output/pacman-contribution-graph-dark.svg?game=pacman">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizematsuoka-lulu/luizematsuoka-lulu/pacman-output/pacman-contribution-graph.svg?game=pacman">
+    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/luizematsuoka-lulu/luizematsuoka-lulu/pacman-output/pacman-contribution-graph.svg?game=pacman">
+  </picture>
+</div>
+
+<br/>
+
+<!-- Banner Inferior com Ondas Midnight-Purple -->
+<div align="center">
+  <img width="100%" src="
