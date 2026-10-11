@@ -3,7 +3,7 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&reversal=false&color=0:000000,40:2d1544,100:9745f5" alt="Header Wave" />
   
   <h1>Luize Matsuoka</h1>
-  <h3>✨ Graduanda em Engenharia de Software</h3>
+  <h3> Graduanda em Engenharia de Software</h3>
 </div>
 
 <br/>
@@ -53,7 +53,11 @@
 
 <!-- Gráfico de Contribuições Animado (Snake) -->
 <div align="center">
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/luizematsuoka-lulu/luizematsuoka-lulu/output/github-contribution-grid-snake-dark.svg" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/luizematsuoka-lulu/luizematsuoka-lulu/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/luizematsuoka-lulu/luizematsuoka-lulu/output/github-contribution-grid-snake.svg">
+    <img alt="Snake animation" src="https://raw.githubusercontent.com/luizematsuoka-lulu/luizematsuoka-lulu/output/github-contribution-grid-snake-dark.svg">
+  </picture>
 </div>
 
 <br/>
