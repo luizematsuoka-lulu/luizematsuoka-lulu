@@ -11,22 +11,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Generate Pacman
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          user: ${{ github.repository_owner }}
-          template: classic
-          base: ""
-          config_timezone: America/Sao_Paulo
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: full-year
-
-      - name: Pacman Action
-        uses: viniciusalvesdefreitas/pacman-contribution-graph@main
+      - name: Generate Pacman Game
+        uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
-
+          outputs: |
+            dist/pacman-contribution-graph.svg?game=pacman
+            dist/pacman-contribution-graph-dark.svg?game=pacman&color_snake=#9745f5&color_dots=#2d1544,#9745f5
       - name: Deploy to output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
