@@ -3,7 +3,7 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=header&reversal=false&color=0:000000,40:2d1544,100:9745f5" alt="Header Wave" />
   
   <h1>Luize Matsuoka</h1>
-  <h3> Graduanda em Engenharia de Software</h3>
+  <h3>✨ Graduanda em Engenharia de Software</h3>
 </div>
 
 <br/>
@@ -51,4 +51,15 @@
 <br/>
 <br/>
 
-<!-- Gráfico de Contribuições Animado
+<!-- Gráfico de Contribuições Animado (Snake) -->
+<div align="center">
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/luizematsuoka-lulu/luizematsuoka-lulu/output/github-contribution-grid-snake-dark.svg" />
+</div>
+
+<br/>
+<br/>
+
+<!-- Banner Inferior com Ondas Midnight-Purple -->
+<div align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&reversal=false&color=0:9745f5,45:2d1544,100:000000" alt="Footer Banner" />
+</div>
