@@ -2,7 +2,6 @@ name: Generate Pacman Animation
 
 on:
   schedule:
-    # Executa automaticamente todo dia à meia-noite
     - cron: "0 0 * * *"
   workflow_dispatch:
 
@@ -12,11 +11,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: maurodesouza/pacman@master
+      # Gera as animações do Pacman consumindo o grafo de contribuições
+      - name: Generate Pacman
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          user: ${{ github.repository_owner }}
+          template: classic
+          base: ""
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
+        continue-on-error: true
+
+      # Action dedicada do Pacman funcional
+      - name: Pacman Action
+        uses: maurodesouza/pacman-contribution-graph@master
+        continue-on-error: true
         with:
           github_user_name: ${{ github.repository_owner }}
 
-      - uses: crazy-max/ghaction-github-pages@v4
+      - name: Deploy output
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: pacman-output
           build_dir: dist
